@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/style.css" />
+    <!-- defer causes the script to run ater the page loads - otherwise the script does not work -->
+    <script type="module" src="js/app.js" defer></script>
+    <title>Word Wizard-like game</title>
+  </head>
+  <body>
+    <h1>WordHerd</h1>
+    <h4>Guess the word: 5 characters. Each letter once. 6 attempts. Go!</h4>
+    <div id="game">
+      <div id="input"><input id="guessword" name="input" type="text" minlength="5" maxlength="5" placeholder="Enter your guess here">
+      </div>
+      <div id="tiles"></div>
+    </div>
+  </body>
+</html>
